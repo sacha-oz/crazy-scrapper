@@ -35,9 +35,10 @@ def crazyscrapper
 
 		output = Hash[crypto_name_mapped.zip(crypto_price_mapped)]
 
+		puts output
+
 		return output
 
-		puts output 
 
 	end
 
